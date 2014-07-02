@@ -1,0 +1,42 @@
+[ 2014-05-29T14:58:40+08:00 ] 0.0.0.0 /dream/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019637s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.058201s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.075683s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.025919s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.012516s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.033040s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.023431s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.021492s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.022867s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.021193s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.006475s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 127 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 152 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 223 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.232869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.016929s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005805s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.014943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042587s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005468s ]
+
+[ 2014-05-29T14:58:41+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.045285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.045510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007393s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005720s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000411s ]
+

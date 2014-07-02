@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="keywords" content="{$info.home_key}" />
+<meta http-equiv="description" content="{$info.home_info}" />
+<title>用户注册 - {$info.home_name}</title>
+<link href="__PUBLIC__/home/css/main.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/home/css/index.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/home/css/other.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+table tr{ height:30px;}
+table td{ font-size:14px;}
+table span
+{
+	color:red;
+}
+</style>
+<script type="text/javascript" src="__PUBLIC__/js/prototype.js"></script>
+</head>
+
+<body>
+<include file="Public:header" />
+<div class="main cbody margintop">
+
+<div class="iright">
+
+<div class="rlist margintop">
+        <div class="title">新闻分类</div>
+		<div class="rbox">
+		<ul>
+		<foreach name="cat" item="cat" >
+		  <if condition="$cat.cat_id neq '' ">
+		  <li><a href='__URL__/news/nid/{$cat.cat_id}'>{$cat.cat_name}</a></li>
+		  </if>
+		 </foreach>
+		</ul>
+		</div>
+</div>	
+<include file="Public:left" />
+</div>
+
+
+	<div class="ileft">
+	  <div class="leftlist margintop">
+			<div class="ptitle">
+				<a href="#">用户注册</a>
+			</div>
+
+			<div class="pleft">
+			  <form method="post" name="reg" action="__URL__/doReg" onsubmit="javascript:return CheckForm();" style="margin-left:0px; padding-left:0px;">
+<table border="0" align="center" cellpadding="7" cellspacing="0" style="margin-top:5px; margin-left:20px; padding-top:0px; border:0px;">
+	<tr class="tr">
+		<td width="100">用户名：</td>
+		<td width="500">
+			<input type="text" name="username" maxlength="20" id="username" onblur="return check_user();"/>
+<php>
+	if($userError)	
+	{
+		echo "<font id=\"name\" color=#FF0000>".$msg."</font>";	 
+	}
+	else
+	{
+</php>
+			<span id="name">*</span>
+<php>
+	}
+</php>
+		</td>
+	</tr>
+	<tr class="tr">
+		<td>密码：</td>
+		<td>
+			<input type="radio" name="sex" id="sex" value="1" checked="checked"/>男 <input type="radio" name="sex" id="sex" value="0"/>女
+		</td>
+	</tr>
+	<tr class="tr">
+		<td>密码：</td>
+		<td>
+			<input type="password" name="password" maxlength="20" id="password1" onblur="return check_password1();"/>
+			<span id="pass1">*</span>
+		</td>
+	</tr>
+	<tr class="tr">
+		<td>确定密码：</td>
+		<td>
+			<input type="password" name="repassword" maxlength="20" id="password2" onblur="return check_password2();"/>
+			<span id="pass2">*</span>
+		</td>
+	</tr>
+	<tr class="tr">
+		<td>邮箱：</td>
+		<td>
+			<input type="text" name="email" size="30" maxlength="35" id="email" onblur="return check_email();"/>
+			<span id="em">*</span>
+		</td>
+	</tr>
+	<tr class="tr">
+		<td>验证码：</td>
+		<td>
+		<input type="text" size="5" maxlength="4" name="verify"><span>*</span>
+		 <img src="__APP__/Index/verify/" />
+<php>
+	if($codeError)		
+	{
+		echo "<font color=#FF0000>".$msg."</font>";	
+	}
+</php>
+		</td>
+	</tr>
+	<tr class="tr">
+		<td colspan="2" align="center"><input type="submit" name="submit" value="提交" /></td>
+	</tr>
+</table>
+</form>
+			</div>
+	  </div>
+	</div>
+
+	<div class="floatclear"><!--清除浮动--></div>
+</div>
+<div class="flink">
+	<div class="title">
+		<dl>
+			<dt>友情链接</dt>
+			<dd><a href="link.php" target="_blank">更多链接</a></dd>
+		</dl>
+	</div>
+	<div class="flinkcon">
+	{$link}
+	</div>
+</div>
+<include file="Public:footer" />
+</body>
+</html>
+

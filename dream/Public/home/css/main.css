@@ -1,0 +1,209 @@
+@charset "gb2312";
+/*----------全局*/
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"宋体";
+}
+body{
+	font-size:12px;
+}
+ul{
+	list-style:none;
+}
+img{
+	border:0px;
+}
+a{
+	color:#333333;
+}
+a:hover{
+	color:#FF3300;
+	text-decoration:none;
+}
+
+.cbody{
+	width:900px;
+	margin:0 auto;
+}
+.margintop{
+	margin-top:5px;
+}
+.floatclear{
+	clear:both;
+}
+input,select{
+	vertical-align:middle;
+}
+/*-----------头部*/
+.top{
+	height:80px;
+	overflow:hidden;
+}
+.toplogo{
+	float:left;
+	width:200px;
+	margin-top:14px;
+}
+.topbanner{
+	width:480px;
+	margin-top:14px;
+	margin-left:20px;
+	float:left;
+}
+.toplink{
+	float:left;
+	margin-top:14px;
+	margin-left:20px;
+	width:180px;
+}
+.toplink ul li{
+	width:90px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.submit{
+	margin-right:20px;
+	width:68px;
+	height:21px;
+	background:url(../images/userlogin_submit.gif) repeat-x;
+	border:1px solid #D4B06A;
+	font-weight:bold;
+	color:#753D00;
+	letter-spacing:3px;
+	line-height:20px;
+	font-size:12px;
+}
+/*----------栏目菜单*/
+.topmenu{
+	height:40px;
+	background:url(../images/topmenu_bg.gif) left top repeat-x;
+}
+.topmenu ul{
+	width:900px;
+	height:40px;
+	background:url(../images/topmenu_r.gif) top center no-repeat;
+	overflow:hidden;
+}
+.topmenu ul li{
+	float:left;
+	margin-left:-2px;
+	text-align:center;
+	background:url(../images/topmenu_bg.gif) left bottom no-repeat;
+}
+.topmenu ul li a{
+	float:left;
+	color:#FFFFFF;
+	display:block;
+	padding-left:17px;
+	padding-right:15px;
+	text-decoration:none;
+	height:40px;
+	line-height:37px;
+}
+.topmenu ul li a:hover{
+	color:#FFFF99;
+	background:url(../images/topmenu_o.gif) center bottom no-repeat;
+}
+.topmenu ul li a.thisclass{
+	color:#FFFF99;
+	background:url(../images/topmenu_o.gif) center bottom no-repeat;
+}
+.topmenu .rssbut{
+	position:relative;
+	float:right;
+	margin:-30px 8px auto;
+	display:inline;
+}
+/*----------内容*/
+.main{
+	clear:both;
+}
+
+
+/*-------------------------侧栏:用户登录*/
+.userlogin {
+	overflow:hidden;
+}
+.userlogin dl{
+	clear:both;
+	height:23px;
+	line-height:23px;
+	margin-top:7px;
+}
+.userlogin dl dt{
+	float:left;
+	display:block;
+	width:66px;
+	text-align:right;
+}
+.userlogin dl dd{
+	float:left;
+}
+.userlogin dl dd input{
+	height:13px;
+	width:126px;
+	font-size:12px;
+	padding:3px 0 3px 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#808080 #D4D0C8 #D4D0C8 #808080;
+}
+.userlogin dl dd img{
+	vertical-align:middle;
+}
+.userlogin dl dd input.gdcode{
+	width:52px;
+}
+.userlogin .ulsubmit{
+	text-align:center;
+	margin-top:15px;
+	height:33px;
+}
+
+/*-------------------------底部:版权信息*/
+.footer{
+	clear:both;
+	border-top:1px solid #DDD;
+}
+
+.footer .footnav{
+	width:900px;
+	margin:0px auto 0px;
+	text-align:center;
+	color:#666666;
+	line-height:21px;
+	letter-spacing:1px;
+}
+
+.footer .footnav a{
+	color:#666666;
+	display:block;
+	float:left;
+	height:15px;
+	line-height:15px;
+	padding-right:12px;
+	padding-left:12px;
+	margin:10px 0px 0px -1px;
+	white-space:nowrap;
+	border-left:1px solid #EEE;
+}
+
+.footer .copyright{
+	width:700px;
+	float:left;
+	text-align:right;
+	color:#666666;
+	line-height:30px;
+	letter-spacing:1px;
+}
+.footer .copyright span{
+	color:#669933;
+}
+
+.footer .slogo{
+	float:right;
+	margin:7px;
+}

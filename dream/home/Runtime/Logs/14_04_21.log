@@ -1,0 +1,1646 @@
+[ 2014-04-21T14:35:46+08:00 ] 0.0.0.0 /dream/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024960s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.093166s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.038242s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.048040s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.005217s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.046629s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.036058s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.010733s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.224141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006784s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003951s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004167s ]
+
+[ 2014-04-21T14:35:46+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.062538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.062843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006657s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005449s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000343s ]
+
+[ 2014-04-21T14:35:51+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007082s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005048s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005686s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019855s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001126s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017429s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-04-21T14:35:53+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006869s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005393s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005288s ]
+SQL: SELECT * FROM `article` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.037254s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 172 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2014-04-21T14:41:13+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.020930s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005640s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005385s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001009s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000872s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2014-04-21T14:41:15+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.043706s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006827s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006466s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 21 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 22 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 172 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048421s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000433s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-04-21T14:41:28+08:00 ] 0.0.0.0 /dream/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006472s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005986s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005152s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.023609s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.006860s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.128366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128599s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001115s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2014-04-21T14:41:29+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007112s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.011707s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000331s ]
+
+[ 2014-04-21T14:53:59+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006995s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004926s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005867s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-04-21T14:54:00+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006553s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005504s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004794s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000335s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '26' ) AND ( `id` < '12' ) ORDER BY id desc LIMIT 1   [ RunTime:0.012645s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 24 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 172 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000446s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2014-04-21T14:55:25+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006642s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.013241s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004912s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005905s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005160s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2014-04-21T14:55:25+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005775s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004877s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000352s ]
+
+[ 2014-04-21T14:55:26+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.009386s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006229s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005213s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012749s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000677s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2014-04-21T14:55:27+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006518s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006537s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004996s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005066s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005129s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-04-21T14:55:27+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004191s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.003610s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000346s ]
+
+[ 2014-04-21T14:55:28+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008775s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006002s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006315s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000524s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000649s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2014-04-21T14:55:29+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/51
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008236s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.014874s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005848s ]
+SQL: SELECT * FROM `article` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '51' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000277s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 172 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 174 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000473s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002364s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-04-21T14:55:43+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007422s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005073s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004938s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005075s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.004935s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033599s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2014-04-21T14:55:44+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006481s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004998s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000294s ]
+
+[ 2014-04-21T14:55:48+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/63
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007970s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006256s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006142s ]
+SQL: SELECT * FROM `article` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.000360s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '10' ) AND ( `id` < '63' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000349s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined index: info D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 172 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000791s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004105s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-04-21T14:56:37+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006302s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005604s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005199s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003310s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-04-21T14:56:38+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/14
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006754s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004795s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.045311s ]
+SQL: SELECT * FROM `article` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '14' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000315s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 174 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000756s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003398s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-04-21T15:00:04+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007375s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005986s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007481s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2014-04-21T15:00:07+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/51
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007546s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006392s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005112s ]
+SQL: SELECT * FROM `article` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '51' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000308s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 174 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2014-04-21T15:00:10+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006539s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006021s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005425s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012141s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-04-21T15:00:11+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006661s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005142s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004748s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005456s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005356s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028835s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2014-04-21T15:00:11+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005688s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004858s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000412s ]
+
+[ 2014-04-21T15:00:16+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/63
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007357s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005970s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006721s ]
+SQL: SELECT * FROM `article` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '10' ) AND ( `id` < '63' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000426s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 160 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014491s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002640s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-04-21T15:00:43+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006559s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004942s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004947s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.018109s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.004917s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027961s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000827s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003395s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-04-21T15:00:44+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007061s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005060s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000295s ]
+
+[ 2014-04-21T15:00:46+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.023337s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.007007s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007336s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '26' ) AND ( `id` < '12' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000519s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001093s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2014-04-21T15:00:56+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006855s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005441s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005253s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-04-21T15:00:57+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006681s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004962s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004898s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-04-21T15:00:58+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006634s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004923s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005094s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.004690s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005080s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026508s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-04-21T15:00:58+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004069s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.003880s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000301s ]
+
+[ 2014-04-21T15:01:06+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006723s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005629s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005159s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-04-21T15:01:09+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006328s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005327s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.004855s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.004784s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005699s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2014-04-21T15:01:10+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000728s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007049s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004833s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000279s ]
+
+[ 2014-04-21T15:01:12+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.009167s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005697s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005051s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011575s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-04-21T15:03:59+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006979s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.007440s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006506s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '26' ) AND ( `id` < '12' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000356s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 188 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2014-04-21T15:04:01+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006613s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005009s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005039s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.004712s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005878s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2014-04-21T15:04:01+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004113s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.003906s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000316s ]
+
+[ 2014-04-21T15:04:04+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/63
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007337s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005218s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006052s ]
+SQL: SELECT * FROM `article` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '10' ) AND ( `id` < '63' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 188 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2014-04-21T15:04:25+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006752s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005306s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006012s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.004829s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.004802s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000490s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2014-04-21T15:04:25+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005386s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005651s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000298s ]
+
+[ 2014-04-21T15:04:28+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006826s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005277s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005738s ]
+SQL: SELECT * FROM `article` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000310s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '11' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000281s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 188 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-04-21T15:04:34+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007553s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005862s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006412s ]
+SQL: SELECT * FROM `article` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000363s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '10' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 1 for Action::assign(), called in D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php on line 25 and defined D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 164 行.
+NOTIC: [8] Undefined variable: name D:\wamp\www\dream\ThinkPHP3.1.3\Lib\Core\Action.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 188 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 195 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015756s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000845s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2014-04-21T15:06:36+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006948s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005820s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005170s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005113s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005426s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001004s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000864s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003898s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2014-04-21T15:06:36+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004077s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004077s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000297s ]
+
+[ 2014-04-21T15:07:04+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008140s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005982s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005115s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016120s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2014-04-21T15:12:56+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007703s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005098s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005229s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2014-04-21T15:12:57+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006877s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005082s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005212s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.004912s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005080s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-04-21T15:12:57+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004388s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.003829s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000291s ]
+
+[ 2014-04-21T15:13:00+08:00 ] 0.0.0.0 /dream/index.php/Produce/show/id/14
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2048] Declaration of ProduceAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ProduceAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006936s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005771s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: cat_list D:\wamp\www\dream\home\Lib\Action\ProduceAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005384s ]
+SQL: SELECT * FROM `produce` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\6e3b343174a7b2f9a63754962870da45.php 第 189 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\6e3b343174a7b2f9a63754962870da45.php 第 196 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000455s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002329s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2014-04-21T15:13:06+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007504s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004911s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005568s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005164s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005067s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000471s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2014-04-21T15:13:06+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005187s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004213s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000276s ]
+
+[ 2014-04-21T15:13:08+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/63
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008388s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.005002s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006158s ]
+SQL: SELECT * FROM `article` WHERE ( id=63 ) LIMIT 1   [ RunTime:0.000464s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '10' ) AND ( `id` < '63' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 191 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 198 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2014-04-21T15:13:11+08:00 ] 0.0.0.0 /dream/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008069s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006039s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005326s ]
+SQL: SELECT * FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `rotate` [ RunTime:0.005771s ]
+SQL: SELECT * FROM `rotate` ORDER BY sort desc,id desc  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.005552s ]
+SQL: SELECT `id`,`name`,`img` FROM `produce` WHERE ( is_show=1 )  [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000633s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-04-21T15:13:11+08:00 ] 0.0.0.0 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004219s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.003890s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000278s ]
+
+[ 2014-04-21T15:13:14+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006645s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006410s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005002s ]
+SQL: SELECT * FROM `article` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000342s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '1' ) AND ( `id` < '11' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 191 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 198 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013693s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2014-04-21T15:23:29+08:00 ] 0.0.0.0 /dream/index.php/Article/show/id/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008045s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.006213s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.006415s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000416s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant lt - assumed 'lt' D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 20 行.
+SQL: SELECT * FROM `article` WHERE ( `cid` = '26' ) AND ( `id` < '12' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pcat D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 117 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 191 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\c829012322b7d58ff4a07275a2569e93.php 第 198 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015838s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2014-04-21T15:23:32+08:00 ] 0.0.0.0 /dream/index.php/Article
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2048] Declaration of ArticleAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\dream\home\Lib\Action\ArticleAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007311s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.004997s ]
+SQL: SELECT `varname`,`value` FROM `config`  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.005185s ]
+SQL: SELECT `id`,`title` FROM `article` ORDER BY id LIMIT 10   [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\610ca9348546c70715a42fb25d3852b8.php 第 98 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+

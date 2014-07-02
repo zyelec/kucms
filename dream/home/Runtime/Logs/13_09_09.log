@@ -1,0 +1,90 @@
+[ 2013-09-09T14:22:23+08:00 ] 127.0.0.1 /dream/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007978s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.143570s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.019053s ]
+SQL: SHOW COLUMNS FROM `bc_config` [ RunTime:0.162310s ]
+SQL: SELECT `varname`,`value` FROM `bc_config`  [ RunTime:0.019031s ]
+SQL: SHOW COLUMNS FROM `bc_article` [ RunTime:0.121855s ]
+SQL: SELECT * FROM `bc_article` ORDER BY id LIMIT 10   [ RunTime:0.020926s ]
+SQL: SHOW COLUMNS FROM `bc_rotate` [ RunTime:0.074202s ]
+SQL: SELECT * FROM `bc_rotate` ORDER BY sort desc,id desc  [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `bc_produce` [ RunTime:0.236116s ]
+SQL: SELECT `id`,`name`,`img` FROM `bc_produce` WHERE ( is_show=1 )  [ RunTime:0.060587s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.060949s ]
+INFO: [ view_template ] --END-- [ RunTime:0.061043s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.345633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345702s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.023612s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.036921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.010105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.009911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.081060s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2013-09-09T14:22:24+08:00 ] 127.0.0.1 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011160s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.007039s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `bc_config` [ RunTime:0.002390s ]
+SQL: SELECT `varname`,`value` FROM `bc_config`  [ RunTime:0.000315s ]
+
+[ 2013-09-09T16:13:37+08:00 ] 127.0.0.1 /dream/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008311s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.004323s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `bc_config` [ RunTime:0.018659s ]
+SQL: SELECT `varname`,`value` FROM `bc_config`  [ RunTime:0.019280s ]
+SQL: SHOW COLUMNS FROM `bc_article` [ RunTime:0.029534s ]
+SQL: SELECT * FROM `bc_article` ORDER BY id LIMIT 10   [ RunTime:0.021070s ]
+SQL: SHOW COLUMNS FROM `bc_rotate` [ RunTime:0.021412s ]
+SQL: SELECT * FROM `bc_rotate` ORDER BY sort desc,id desc  [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `bc_produce` [ RunTime:0.018095s ]
+SQL: SELECT `id`,`name`,`img` FROM `bc_produce` WHERE ( is_show=1 )  [ RunTime:0.022933s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.044664s ]
+INFO: [ view_template ] --END-- [ RunTime:0.044755s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: new2 D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 130 行.
+NOTIC: [8] Undefined index: user D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 155 行.
+NOTIC: [8] Undefined variable: footnav D:\wamp\www\dream\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 226 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.193565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005396s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015075s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.009962s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.009956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040590s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2013-09-09T16:13:37+08:00 ] 127.0.0.1 /dream/index.php/Index/verify/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004375s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003837s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.042039s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `bc_config` [ RunTime:0.007040s ]
+SQL: SELECT `varname`,`value` FROM `bc_config`  [ RunTime:0.000286s ]
+
