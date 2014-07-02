@@ -1,0 +1,20 @@
+@charset "utf-8";
+body
+{
+	font-size:14px;
+}
+table
+{
+	border:solid #99CCFF 1px;
+	margin-top:80px;
+}
+#top
+{
+	background-color:#99CCFF;
+	font-size:15px;
+	font-family:楷体;
+}
+span
+{
+	color:red;
+}

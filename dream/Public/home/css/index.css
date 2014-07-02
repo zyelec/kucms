@@ -1,0 +1,327 @@
+@charset "gb2312";
+
+/*---------------左侧*/
+.ileft{
+	width:670px;
+	float:left;
+	overflow:hidden;
+}
+
+/*---------------左侧列表*/
+.leftlist{
+	width:668px;
+	border:1px solid #DDD;
+	overflow:hidden;
+}
+.leftlist .ptitle{
+	width:666px;
+	height:31px;
+	margin:1px auto 0px;
+	background:url(../images/topline_botbg.gif) 0px -20px repeat-x;
+	border-bottom:1px solid #EEE;
+}
+.leftlist .ptitle a{
+	display:block;
+	width:200px;
+	height:31px;
+	line-height:31px;
+	background:url(../images/article_ico_1.gif) 8px 8px no-repeat;
+	text-indent:30px;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.leftlist .ptlink{
+	position:relative;
+	float:right;
+	margin:-23px 10px 0px 0px;
+	display:inline;
+}
+.leftlist .ptlink a{
+	color:#666666;
+}
+.leftlist .plist{
+	width:668px;
+	overflow:hidden;
+	list-style:none;
+}
+
+
+/*---------------图文资讯*/
+.picnews dd{
+	width:154px;
+	float:left;
+	display:inline;
+	text-align:center;
+	margin:10px 0px 0px 10px;
+	line-height:31px;
+	overflow:hidden;
+}
+.picnews dd img{
+	border:1px solid #DDD;
+}
+.picnews dd a img{
+	border:1px solid #DDD;
+}
+.picnews dd a:hover img{
+	border:1px solid  #FFCC00;
+}
+.picnews dd a{
+	display:block;
+}
+
+
+/* 友情链接 */
+/*---------------图文资讯*/
+.linknews dd{
+	width:100px;
+	float:left;
+	display:inline;
+	text-align:center;
+	margin:10px 0px 0px 10px;
+	line-height:31px;
+	overflow:hidden;
+}
+.linknews dd img{
+	border:1px solid #DDD;
+	height:31px;
+	width:88px;
+}
+.linknews dd a img{
+	border:1px solid #DDD;
+}
+.linknews dd a:hover img{
+	border:1px solid  #FFCC00;
+}
+.linknews dd a{
+	display:block;
+}
+
+
+
+/*---------------资讯列表*/
+.newsbox{
+	width:680px;
+	clear:both;
+	overflow:hidden;
+}
+.newsbox dl{
+	width:330px;
+	float:left;
+	margin-right:6px;
+	border:1px solid #DDD;
+}
+.newsbox dl dt{
+	width:328px;
+	height:31px;
+	margin:1px auto 0px;
+	background:url(../images/topline_botbg.gif) 0px -20px repeat-x;
+	border-bottom:1px solid #EEE;
+}
+.newsbox dl dt a{
+	display:block;
+	height:31px;
+	line-height:31px;
+	background:url(../images/article_ico_1.gif) 8px 8px no-repeat;
+	text-indent:30px;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.newsbox dl dd{
+	width:330px;
+}
+.newsbox dl dd ul{
+	width:300px;
+	margin:6px auto;
+}
+.newsbox dl dd ul li{
+	height:29px;
+	width:300px;
+	line-height:29px;
+	/*background:url(../images/ico_4.gif) 6px 14px no-repeat;*/
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden; 
+	
+}
+.newsbox dl dd ul li a{
+	color:#0066CC;
+	font-size:14px;
+}
+
+.pdlbox{/*左侧列表区域左*/
+	width:434px;
+	float:left;
+}
+.pdlbox dl{
+	width:434px;
+}
+
+.pdright{/*左侧列表区域右*/
+	width:232px;
+	height:260px;
+	display:inline;
+	float:right;
+	overflow:hidden;
+	background:url(../images/topline_botbg.gif) right bottom repeat-x;
+	border-left:1px solid #EEE;
+}
+.pdright dl{
+	width:230px;
+	height:260px;
+	border-right:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+.pdright dl dt{
+	line-height:17px;
+	font-weight:bold;
+	font-size:14px;
+	text-indent:24px;
+	background:url(../images/ico_8.gif) 5px 0px no-repeat;
+	margin-top:7px;
+}
+.pdright dl dd ul{
+	width:230px;
+	text-indent:25px;
+}
+.pdright dl dd ul li{
+	height:29px;
+	line-height:29px;
+	background:url(../images/ico_4.gif) 12px 15px no-repeat;
+}
+.pdright dl dd ul li a{
+	color:#666;
+}
+
+
+/*--------------------右侧*/
+.iright{
+	width:222px;
+	float:right;
+}
+/*-------------------------右侧:白底常规列表定义*/
+.rlist{
+	width:222px;
+}
+.rlist .title{
+	width:222px;
+	height:19px;
+	padding-top:9px;
+	background:url(../images/rlist_title_bg.gif) no-repeat;
+	text-indent:10px;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#444;
+}
+.rlist .rbox{
+	border:1px solid #E2E2E2;
+	width:220px;
+}
+.rlist .rbox ul li{
+	height:29px;
+	width:220px;
+	line-height:30px;
+	/*background:url(../images/ico_4.gif) 6px 14px no-repeat;*/
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden; 
+}
+
+.rlist .rbox ul a{
+	display:block;
+	height:30px;
+	width:220px;
+	font-size:14px;
+	padding-left:20px;
+}
+
+.rlist .rbox .rbox2 a{
+	display:block;
+	height:20px;
+	width:220px;
+	font-size:12px;
+	padding-left:31px;
+	background:url(../images/ico_1.gif) 20px 10px no-repeat;
+}
+
+
+
+/*-------------------------首页:右侧栏:投票调查*/
+.vote span{
+	display:block;
+	height:20px;
+	line-height:20px;
+	margin:12px 0px 2px 10px;
+}
+.vote span a{
+	font-size:14px;
+	display:block;
+	height:20px;
+	line-height:20px;
+}
+
+.vote span input{
+	width:100px;
+}
+.vote .votesubmit{
+	width:200px;
+	margin:7px auto;
+	border-top:1px solid #DDD;
+	text-align:center;
+	padding-top:10px;
+	height:24px;
+
+}
+
+/*-------------------------首页:底部*/
+/*-------------------------首页:底部:友情链接*/
+.flink{
+	width:898px;
+	margin:6px auto;
+	border:1px solid #DDD;
+	clear:both;
+	overflow:hidden;
+}
+.flink .title{
+	height:26px;
+	line-height:26px;
+	background:url(../images/flink_title_bg.gif) repeat-x;
+}
+.flink .title dl dt{
+	width:200px;
+	float:left;
+	line-height:26px;
+	text-indent:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#666666;
+}
+.flink .title dl dd{
+	color:#AAA;
+	float:right;
+	margin-right:10px;
+	display:inline;
+}
+.flink .title dl dd a{
+	color:#666666;
+}
+.flink .flinkcon{
+	width:880px;
+	margin:0px auto 0px;
+	overflow:hidden;
+	width:880px;
+	padding-bottom:10px;
+}
+.flink .flinkcon a{
+	color:#666666;
+	display:block;
+	float:left;
+	height:15px;
+	line-height:15px;
+	padding-right:12px;
+	padding-left:12px;
+	margin:10px 0px 0px -1px;
+	white-space:nowrap;
+	border-left:1px solid #EEE;
+}

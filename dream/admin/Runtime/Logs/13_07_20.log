@@ -1,0 +1,300 @@
+[ 2013-07-20T08:47:33+08:00 ] 127.0.0.1 /dream/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008173s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001042s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005014s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000857s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008274s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2013-07-20T08:47:33+08:00 ] 127.0.0.1 /dream/admin.php/Public/top.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002055s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002127s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019750s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000454s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000517s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2013-07-20T08:47:33+08:00 ] 127.0.0.1 /dream/admin.php/Public/menu.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004290s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `bc_module` [ RunTime:0.024104s ]
+SQL: SELECT * FROM `bc_module` ORDER BY id  [ RunTime:0.241540s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001881s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 12 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 36 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 61 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.042996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043064s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000719s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000694s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000594s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2013-07-20T08:47:34+08:00 ] 127.0.0.1 /dream/admin.php/Public/main.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.115992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116078s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001049s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004559s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2013-07-20T08:47:38+08:00 ] 127.0.0.1 /dream/admin.php/Category/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.020737s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `bc_module` [ RunTime:0.002640s ]
+SQL: SELECT * FROM `bc_module` ORDER BY id  [ RunTime:0.000422s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006143s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.023237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023305s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000469s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000418s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000321s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2013-07-20T08:47:44+08:00 ] 127.0.0.1 /dream/admin.php/Category/doAdd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.003671s ]
+
+[ 2013-07-20T08:48:41+08:00 ] 127.0.0.1 /dream/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001310s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001375s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007286s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000432s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000365s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2013-07-20T08:48:41+08:00 ] 127.0.0.1 /dream/admin.php/Public/top.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003578s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005334s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2013-07-20T08:48:41+08:00 ] 127.0.0.1 /dream/admin.php/Public/main.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016305s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000552s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000340s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2013-07-20T08:48:41+08:00 ] 127.0.0.1 /dream/admin.php/Public/menu.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005668s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `bc_module` [ RunTime:0.031119s ]
+SQL: SELECT * FROM `bc_module` ORDER BY id  [ RunTime:0.000524s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 12 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 36 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 61 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013318s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000489s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002464s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.009185s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016112s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2013-07-20T08:48:43+08:00 ] 127.0.0.1 /dream/admin.php/Category/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.003632s ]
+SQL: SELECT * FROM `bc_category` ORDER BY id  [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `bc_module` [ RunTime:0.003059s ]
+SQL: SELECT * FROM `bc_module` ORDER BY id  [ RunTime:0.000459s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001703s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001766s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\dream\admin\Runtime\Cache\a4375f5011068cce2f0ce66bcd6e047a.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016206s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000737s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000595s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2013-07-20T08:48:49+08:00 ] 127.0.0.1 /dream/admin.php/Category/doAdd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003560s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+SQL: SHOW COLUMNS FROM `bc_category` [ RunTime:0.003188s ]
+

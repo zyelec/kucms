@@ -1,0 +1,848 @@
+[ 2014-04-24T14:49:58+08:00 ] 0.0.0.0 /dream/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+
+[ 2014-04-24T14:49:59+08:00 ] 0.0.0.0 /dream/admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003374s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004019s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014739s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002462s ]
+
+[ 2014-04-24T14:50:03+08:00 ] 0.0.0.0 /dream/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.095893s ]
+SQL: SELECT `uid` FROM `user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000624s ]
+
+[ 2014-04-24T14:50:04+08:00 ] 0.0.0.0 /dream/admin.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-04-24T14:50:04+08:00 ] 0.0.0.0 /dream/admin.php/Public/top.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2014-04-24T14:50:04+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003477s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.074621s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 12 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 31 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 56 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 76 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\dream\admin\Runtime\Cache\344adff84fc2b75cfa6026542dd95e8c.php 第 95 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2014-04-24T14:50:04+08:00 ] 0.0.0.0 /dream/admin.php/Public/main.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042847s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002816s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002236s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002220s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2014-04-24T14:50:07+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu/channel/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.006790s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-24T14:50:09+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu/channel/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.006329s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2014-04-24T14:50:11+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu/channel/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.006367s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006625s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2014-04-24T14:50:12+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu/channel/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.006139s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001523s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006681s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2014-04-24T14:50:15+08:00 ] 0.0.0.0 /dream/admin.php/Article/add/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008445s ]
+SQL: SELECT * FROM `category` WHERE ( moduleid=4 )  [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+NOTIC: [8] Undefined index: fid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 64 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 95 行.
+NOTIC: [8] Undefined index: cid D:\wamp\www\dream\admin\Lib\ORG\Category.class.php 第 97 行.
+
+[ 2014-04-24T14:50:17+08:00 ] 0.0.0.0 /dream/admin.php/Public/menu/channel/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.006426s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001430s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2014-04-24T14:50:19+08:00 ] 0.0.0.0 /dream/admin.php/Category
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006505s ]
+SQL: SELECT * FROM `category` ORDER BY id  [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.004448s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.000481s ]
+NOTIC: [8] Undefined variable: s D:\wamp\www\dream\admin\Lib\Action\CategoryAction.class.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\dream\admin\Lib\Action\CategoryAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\dream\admin\Runtime\Cache\974995274876d32fbbcf610a23f60ac5.php 第 128 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2014-04-24T14:50:20+08:00 ] 0.0.0.0 /dream/admin.php/Page
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.044325s ]
+SQL: SELECT * FROM `page` ORDER BY id  [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001779s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001459s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2014-04-24T14:50:22+08:00 ] 0.0.0.0 /dream/admin.php/Page/edit/id/21
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006384s ]
+SQL: SELECT `cid` FROM `page` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005566s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `category` WHERE ( moduleid =2 )  [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: s D:\wamp\www\dream\admin\Lib\Action\PageAction.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.003771s ]
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-24T14:50:24+08:00 ] 0.0.0.0 /dream/admin.php/Page
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006415s ]
+SQL: SELECT * FROM `page` ORDER BY id  [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001711s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006751s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2014-04-24T14:50:25+08:00 ] 0.0.0.0 /dream/admin.php/Page
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.012406s ]
+SQL: SELECT * FROM `page` ORDER BY id  [ RunTime:0.001166s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002739s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2014-04-24T14:50:26+08:00 ] 0.0.0.0 /dream/admin.php/Page
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006246s ]
+SQL: SELECT * FROM `page` ORDER BY id  [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001950s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007170s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2014-04-24T14:52:45+08:00 ] 0.0.0.0 /dream/admin.php/Page/add/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006855s ]
+SQL: SELECT * FROM `page` WHERE ( moduleid=1 )  [ RunTime:0.000273s ]
+ERR: 1054:Unknown column 'moduleid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `page` WHERE ( moduleid=1 ) 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051139s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2014-04-24T14:52:47+08:00 ] 0.0.0.0 /dream/admin.php/Page
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006247s ]
+SQL: SELECT * FROM `page` ORDER BY id  [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined index: catname D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 80 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\dream\admin\Runtime\Cache\82fc00802cc7f1f640a69c06fb8a7edf.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001008s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000908s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2014-04-24T14:52:49+08:00 ] 0.0.0.0 /dream/admin.php/Page/edit/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.006185s ]
+SQL: SELECT `cid` FROM `page` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.005219s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `category` WHERE ( moduleid =2 )  [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: s D:\wamp\www\dream\admin\Lib\Action\PageAction.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.003971s ]
+ERR: Model:relation您所请求的方法不存在！
+
