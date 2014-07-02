@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://s1.mi.com/open/index.html -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0"> 
+<title>{$site_name}</title>
+<meta name="description" content="{$seo_description}">
+<meta name="keywords" content="{$seo_keywords}">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/main.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/nav.css" />
+</head>
+<body>
+<div class="box">
+    <div class="warp">
+        <div class="logo"><a href="__APP__"><img src="__PUBLIC__/Home/images/logo.gif"></a></div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="one"><a href="__APP__">首页</a></li>
+            <volist name="clist" id="clist">
+                <li class="one"><a href="__APP__/Home/Category/index/id/{$clist.id}">{$clist.cname}</a>
+                    <ul>
+                        <volist name="clist.sub" id="sublist">                            
+                            <li class="two"><a href="__APP__/Home/Category/index/id/{$sublist.id}">{$sublist.cname}</a></li>                            
+                        </volist>
+                    </ul>
+                </li>
+            </volist>                    
+        </ul>
+    </div>

@@ -1,0 +1,109 @@
+<include file="Public:header" />
+<div class="space"></div>
+    <!--导航结束-->
+    <div class="rotate">
+        <img src="__PUBLIC__/Home/images/logo.jpg">
+    </div>
+    <div class="space"></div>
+    <!--轮换结束-->
+    <div class="recommend">
+        <div class="pcate">
+            <div class="top_cate">
+                <div class="top_font">产品分类</div>
+            </div>
+            <div class="sort">
+                <ul>
+                    <volist name="pcate" id="pcate">
+                        <li>{$pcate.cname}</li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+        <div class="plist">
+            <div class="ptlink">
+                <a href="product.php">更多</a>
+            </div>
+            <div class="pright">
+            	<dl>
+                     <foreach name="produce" item="produce" >
+	                     <dd>
+	                         <a href='__URL__/produce_view/id/{$produce.id}' target='_blank' class='pimg'><img src='__PUBLIC__/Uploads/1.jpg' /></a>
+	                         <a href='__URL__/produce_view/id/{$produce.id}' target='_blank'><span>产品1</a></span>
+	                     </dd>
+                     </foreach>
+            	</dl>
+            </div>
+        </div>
+    </div>
+    <!--产品分类-->
+    <div class="recommend">
+        <div class="pcate">
+            <div class="top_cate">
+                <div class="top_font">产品分类</div>
+            </div>
+            <div class="sort">
+                <ul>
+                    <volist name="clist" id="clist">
+                        <li>{$clist.cname}</li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+        <div class="plist">
+            <div class="ptlink">
+                <a href="product.php">更多</a>
+            </div>
+            <div class="pright">
+              <volist name="plist" id="plist">
+                <dl>                       
+                  <dd>
+                    <a href='__APP__/Home/Category/show/module/Article/id/{$plist.id}' target='_blank' class='pimg'>
+                    <img src='__PUBLIC__/Uploads/{$plist.img}.jpg' /></a>                           
+                  </dd>
+                  <dt><a href='__APP__/Home/Category/show/module/Article/id/{$plist.id}' target='_blank'>{$plist.name}</a></dt>         
+                </dl> 
+              </volist>
+                                 
+            </div>
+            <div class="clean"></div>
+        </div>
+    </div>
+    <div class="clean"></div>
+    <div class="space"></div>
+    <!--新闻分类-->
+    <div class="news">
+        <div class="news_top">
+            <div class="news_title"><a href="__APP__/Home/List/index/module/Article/id/0" title="新闻中心">新闻中心</a></div>
+        </div>
+        <div class="nlist">
+            <div class="nlist_left">
+                <ul>
+                	<volist name="alist" id="alist">
+                		<li><a href="__APP__/Home/Category/show/module/Article/id/{$alist.id}">{$alist.title}</a></li>
+                	</volist>
+                    
+
+                </ul>
+            </div>
+            <!-- <div class="nlist_right">
+                <ul>
+                    <li>45446466</li>
+                    <li>45446466</li>
+                    <li>45446466</li>
+                    <li>45446466</li>
+                    <li>45446466</li>
+                    <li>45446466</li>
+                </ul>
+            </div> -->
+        </div>   
+    </div>
+    <div class="clean"></div>
+    <div class="space"></div>
+    <div class="picture">
+        <div class="icate">图片中心</div>
+        <div class="ilist"></div>   
+    </div>
+    <div class="clean"></div>
+    <div class="space"></div>
+<include file="Public:footer" />
+
