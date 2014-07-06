@@ -13,9 +13,9 @@ class ProduceController extends Controller{
 	public function add(){
 		if(IS_POST){
 			$produce=M('Produce');
-			if($produce->create()){
+			if($produce->create()){			
 				$produce->img=$this->_upload();				
-				if($produce->add()){
+				if($produce->add()){				
 					$this->success("添加成功!",U('Produce/index'));
 				}else{
 					$this->error("添加失败!",U('Produce/add'));
@@ -24,25 +24,25 @@ class ProduceController extends Controller{
 				$this->error($produce->getError());
 			}
 		}else{
-			$mid=trim($_GET['id']);
+			echo $mid=trim($_GET['id']);
 			$cate=M('Category');
 			$clist=$cate->field(array("id","fid","cname","concat(path,'-',id)"=>"bpath"))->where('moduleid='.$mid)->order('bpath')->select();
 			foreach($clist as $key => $v){
 				$v['count']=count(explode('-',$v['bpath']));
 				$clist[$key]['count']=$v['count'];
-			}
-				//dump($clist);
+			}			
 			$this->assign('clist',$clist);
 			$this->display();
 		}	
 	}
 	
 
-	
+	//产品编辑模块
 	public function edit(){
 		if(IS_POST){
 			$produce=M('Produce');
-			if($data=$produce->create()){				
+			if($data=$produce->create()){	
+				dump($data);die;			
 				if($_FILES['img']['error']==0){
 					$img=$this->_upload();				
 					if(!isset($img)){

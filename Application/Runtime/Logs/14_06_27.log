@@ -1,0 +1,1275 @@
+[ 2014-06-27T10:00:32+08:00 ] ::1 /kucms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032737s ]
+
+[ 2014-06-27T10:10:26+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2014-06-27T10:10:29+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-06-27T10:10:37+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-06-27T10:10:39+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-06-27T10:55:28+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-06-27T10:55:30+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2014-06-27T10:55:31+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-06-27T11:15:40+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2014-06-27T11:15:42+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2014-06-27T11:15:44+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2014-06-27T11:15:46+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2014-06-27T11:15:48+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2014-06-27T11:15:49+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2014-06-27T11:15:51+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-06-27T11:16:00+08:00 ] ::1 /kucms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-06-27T11:16:03+08:00 ] ::1 /kucms/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-06-27T11:16:03+08:00 ] ::1 /kucms/index.php/Admin/Public/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-06-27T11:16:03+08:00 ] ::1 /kucms/index.php/Admin/Public/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-06-27T11:16:03+08:00 ] ::1 /kucms/index.php/Admin/Public/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.010046s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined index: channel D:\wamp\www\kucms\Application\Runtime\Cache\Admin\fc6fd01631273ba50d3bc9f2f442211f.php 第 12 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\kucms\Application\Runtime\Cache\Admin\fc6fd01631273ba50d3bc9f2f442211f.php 第 31 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\kucms\Application\Runtime\Cache\Admin\fc6fd01631273ba50d3bc9f2f442211f.php 第 54 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\kucms\Application\Runtime\Cache\Admin\fc6fd01631273ba50d3bc9f2f442211f.php 第 84 行.
+NOTIC: [8] Undefined index: channel D:\wamp\www\kucms\Application\Runtime\Cache\Admin\fc6fd01631273ba50d3bc9f2f442211f.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2014-06-27T11:16:07+08:00 ] ::1 /kucms/index.php/Admin/Public/menu/channel/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.008159s ]
+SQL: SELECT * FROM `module` ORDER BY id  [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2014-06-27T11:16:09+08:00 ] ::1 /kucms/index.php/Admin/Article/add/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.009064s ]
+SQL: SELECT `id`,`fid`,`cname`,concat(path,'-',id) AS `bpath` FROM `category` WHERE ( moduleid=2 ) ORDER BY bpath  [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2014-06-27T11:16:19+08:00 ] ::1 /kucms/index.php/Admin/Category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.010084s ]
+SQL: SELECT `id`,`cname`,`fid`,`moduleid`,`path`,`isshow`,`sort`,concat(path,'-',id) AS `bpath` FROM `category` ORDER BY bpath asc  [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.008375s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.040912s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2014-06-27T11:16:25+08:00 ] ::1 /kucms/index.php/Admin/Category/edit/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007472s ]
+SQL: SELECT `id`,`cname`,`fid`,`moduleid`,concat(path,'-',id) AS `bpath`,`isshow`,`template` FROM `category` ORDER BY bpath  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `category` WHERE ( id=97 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.063589s ]
+SQL: SELECT * FROM `module`  [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: parentdir D:\wamp\www\kucms\Application\Runtime\Cache\Admin\dfed54471f23c5cc0f29d10cfac5ae98.php 第 50 行.
+NOTIC: [8] Undefined index: listorder D:\wamp\www\kucms\Application\Runtime\Cache\Admin\dfed54471f23c5cc0f29d10cfac5ae98.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2014-06-27T11:16:32+08:00 ] ::1 /kucms/index.php/Admin/Category/doEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007890s ]
+SQL: SELECT * FROM `category` WHERE ( id=95 ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: UPDATE `category` SET `moduleid`='2',`template`='1',`cname`='中国新闻456546',`fid`='95',`sort`='',`isshow`='1',`path`='0-95' WHERE ( `id` = '97' ) [ RunTime:0.107572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-06-27T11:16:33+08:00 ] ::1 /kucms/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008136s ]
+SQL: SELECT `id`,`cname`,`fid`,`moduleid`,`path`,`isshow`,`sort`,concat(path,'-',id) AS `bpath` FROM `category` ORDER BY bpath asc  [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `module` [ RunTime:0.007504s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `module` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+NOTIC: [8] Undefined index: cat_id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2014-06-27T11:16:35+08:00 ] ::1 /kucms/index.php/Admin/Article/add/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007831s ]
+SQL: SELECT `id`,`fid`,`cname`,concat(path,'-',id) AS `bpath` FROM `category` WHERE ( moduleid=2 ) ORDER BY bpath  [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2014-06-27T11:16:58+08:00 ] ::1 /kucms/index.php/Admin/Article/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+
+[ 2014-06-27T11:17:04+08:00 ] ::1 /kucms/index.php/Admin/Article/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007977s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\kucms\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+NOTIC: [8] Undefined index: subName D:\wamp\www\kucms\Application\Admin\Controller\ArticleController.class.php 第 162 行.
+SQL: INSERT INTO `article` (`cid`,`title`,`keywords`,`description`,`content`,`from`,`author`,`addtime`,`img`) VALUES (97,'这是中国新闻1',0,0,'这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1这是中国新闻1','本站原创','管理员','2014-06-27','53ace23071de0.jpg') [ RunTime:0.024185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2014-06-27T11:17:05+08:00 ] ::1 /kucms/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.007926s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `article` WHERE ( is_del=0 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007443s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='118' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='109' ) LIMIT 1   [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 66 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-06-27T11:17:06+08:00 ] ::1 /kucms/index.php/Admin/Article/add/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008526s ]
+SQL: SELECT `id`,`fid`,`cname`,concat(path,'-',id) AS `bpath` FROM `category` WHERE ( moduleid=2 ) ORDER BY bpath  [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2014-06-27T11:17:23+08:00 ] ::1 /kucms/index.php/Admin/Article/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.032584s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\kucms\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+NOTIC: [8] Undefined index: subName D:\wamp\www\kucms\Application\Admin\Controller\ArticleController.class.php 第 162 行.
+SQL: INSERT INTO `article` (`cid`,`title`,`keywords`,`description`,`content`,`from`,`author`,`addtime`,`img`) VALUES (97,'这是中国新闻2',0,0,'这是中国新闻2','本站原创','管理员','2014-06-27','53ace24356045.gif') [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-06-27T11:17:24+08:00 ] ::1 /kucms/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.008161s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `article` WHERE ( is_del=0 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006578s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='118' ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 66 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2014-06-27T11:17:27+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-06-27T11:17:31+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-06-27T11:17:35+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2014-06-27T13:36:04+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-06-27T13:54:46+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+
+[ 2014-06-27T13:54:50+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 模板不存在:./Application/Home/View//show.html
+
+[ 2014-06-27T13:55:14+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-06-27T13:56:31+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-06-27T13:56:32+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2014-06-27T13:56:33+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-06-27T13:56:35+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-06-27T13:57:29+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-06-27T13:57:32+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 模板不存在:./Application/Home/View//show.html
+
+[ 2014-06-27T13:57:40+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-06-27T13:58:49+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-06-27T13:58:51+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 模板不存在:./Application/Home/View//show.html
+
+[ 2014-06-27T14:00:08+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-06-27T14:00:22+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-06-27T14:00:37+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2014-06-27T14:03:52+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-06-27T14:05:47+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2014-06-27T14:05:50+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-06-27T14:05:53+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-06-27T14:06:21+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-06-27T14:06:23+08:00 ] ::1 /kucms/index.php/Home/List/index/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2014-06-27T14:13:32+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-06-27T14:13:37+08:00 ] ::1 /kucms/index.php/Home/List/index/cid/97/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-06-27T14:15:32+08:00 ] ::1 /kucms/index.php/Home/List/index/cid/97/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2014-06-27T14:15:41+08:00 ] ::1 /kucms/index.php/Home/List/index/cid/97/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2014-06-27T14:16:24+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-06-27T14:16:26+08:00 ] ::1 /kucms/index.php/Home/List/index/cid/97/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-06-27T14:19:42+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-06-27T14:19:44+08:00 ] ::1 /kucms/index.php/Home/List/index/cid/97/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-06-27T16:43:29+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2014-06-27T16:44:13+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-06-27T16:44:17+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-06-27T16:51:35+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-06-27T16:51:37+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-06-27T16:51:56+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2014-06-27T16:51:57+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-06-27T16:52:03+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2014-06-27T16:52:04+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-06-27T16:53:18+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+
+[ 2014-06-27T16:53:25+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-06-27T16:53:28+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-06-27T16:53:29+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2014-06-27T16:53:33+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2014-06-27T16:53:38+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-06-27T16:55:44+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2014-06-27T16:55:46+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-06-27T16:55:48+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2014-06-27T16:55:50+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-06-27T16:55:52+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-06-27T16:55:54+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2014-06-27T16:55:56+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2014-06-27T16:55:58+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2014-06-27T16:56:01+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-06-27T16:56:17+08:00 ] ::1 /kucms/index.php/Admin/Article/edit/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.016437s ]
+SQL: SELECT * FROM `article` WHERE ( id=115 ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013588s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=97 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT `id`,`fid`,`cname`,concat(path,'-',id) AS `bpath` FROM `category` WHERE ( moduleid=2 ) ORDER BY bpath  [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 75 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 75 行.
+NOTIC: [8] Undefined index: form D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-06-27T16:56:21+08:00 ] ::1 /kucms/index.php/Admin/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010303s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `article` WHERE ( is_del=0 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.007767s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='118' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 66 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2014-06-27T16:56:24+08:00 ] ::1 /kucms/index.php/Admin/Article/edit/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.027809s ]
+SQL: SELECT * FROM `article` WHERE ( id=115 ) LIMIT 1   [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.012986s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=97 ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: SELECT `id`,`fid`,`cname`,concat(path,'-',id) AS `bpath` FROM `category` WHERE ( moduleid=2 ) ORDER BY bpath  [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 75 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 75 行.
+NOTIC: [8] Undefined index: form D:\wamp\www\kucms\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2014-06-27T16:56:37+08:00 ] ::1 /kucms/index.php/Admin/Article/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.008596s ]
+SQL: UPDATE `article` SET `cid`=97,`title`='这是中国新闻2',`keywords`=0,`description`=0,`content`='&lt;p&gt;\r\n	这是中国新闻2\r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;img src=&quot;/kucms/Public/kindeditor-4.1.7/attached/image/20140627/20140627085635_70655.gif&quot; alt=&quot;&quot; /&gt;\r\n&lt;/p&gt;',`from`='',`author`='管理员',`addtime`='2014-06-27 00:00:00' WHERE ( `id` = 115 ) [ RunTime:0.019475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-06-27T16:56:39+08:00 ] ::1 /kucms/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.008429s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `article` WHERE ( is_del=0 ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006838s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='97' ) LIMIT 1   [ RunTime:0.000405s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='118' ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='106' ) LIMIT 1   [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 66 行.
+NOTIC: [8] Undefined variable: header D:\wamp\www\kucms\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-06-27T16:56:46+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-06-27T16:56:48+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2014-06-27T18:34:13+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-06-27T18:34:15+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-06-27T18:34:17+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2014-06-27T18:34:19+08:00 ] ::1 /kucms/index.php/Home/Category/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2014-06-27T18:34:22+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2014-06-27T18:36:18+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-06-27T18:36:20+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2014-06-27T18:36:22+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2014-06-27T18:36:25+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-06-27T18:36:35+08:00 ] ::1 /kucms/index.php/Admin/Produce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.008008s ]
+SQL: SELECT * FROM `produce` ORDER BY id asc  [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006520s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='102' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='107' ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='109' ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='108' ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='117' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\kucms\Application\Runtime\Cache\Admin\831f47898d9ce509fc518a264796f30c.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2014-06-27T18:36:37+08:00 ] ::1 /kucms/index.php/Admin/Produce/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.007506s ]
+SQL: SELECT * FROM `produce` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006372s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `category` WHERE ( moduleid= )  [ RunTime:0.004052s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( moduleid= ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\wamp\www\kucms\Application\Runtime\Cache\Admin\640c8e66c3dee7b0b2d86346f29c1e9a.php 第 75 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\kucms\Application\Runtime\Cache\Admin\640c8e66c3dee7b0b2d86346f29c1e9a.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2014-06-27T18:36:42+08:00 ] ::1 /kucms/index.php/Admin/Produce/Edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.022865s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\kucms\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+NOTIC: [8] Undefined index: subName D:\wamp\www\kucms\Application\Admin\Controller\ProduceController.class.php 第 123 行.
+NOTIC: [2] unlink(./Public/Uploads/): Permission denied D:\wamp\www\kucms\Application\Admin\Controller\ProduceController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+
+[ 2014-06-27T18:36:45+08:00 ] ::1 /kucms/index.php/Admin/Produce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.008240s ]
+SQL: SELECT * FROM `produce` ORDER BY id asc  [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006752s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='5' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='102' ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='107' ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='109' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='108' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='115' ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='117' ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `category` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\kucms\Application\Runtime\Cache\Admin\831f47898d9ce509fc518a264796f30c.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2014-06-27T18:36:47+08:00 ] ::1 /kucms/index.php/Admin/Produce/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.008546s ]
+SQL: SELECT * FROM `produce` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.006535s ]
+SQL: SELECT `moduleid` FROM `category` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `category` WHERE ( moduleid= )  [ RunTime:0.000190s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `category` WHERE ( moduleid= ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\wamp\www\kucms\Application\Runtime\Cache\Admin\640c8e66c3dee7b0b2d86346f29c1e9a.php 第 75 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\kucms\Application\Runtime\Cache\Admin\640c8e66c3dee7b0b2d86346f29c1e9a.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2014-06-27T18:36:54+08:00 ] ::1 /kucms/index.php/Admin/Produce/Edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `produce` [ RunTime:0.008306s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\kucms\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+NOTIC: [8] Undefined index: subName D:\wamp\www\kucms\Application\Admin\Controller\ProduceController.class.php 第 123 行.
+NOTIC: [2] unlink(./Public/Uploads/): Permission denied D:\wamp\www\kucms\Application\Admin\Controller\ProduceController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-06-27T18:36:58+08:00 ] ::1 /kucms/index.php/Admin/Produce/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\kucms\Application\Admin\Controller\ProduceController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002153s ]
+
+[ 2014-06-27T18:55:21+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-06-27T18:55:24+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-06-27T18:55:42+08:00 ] ::1 /kucms/index.php/Home/Category/show/module/Article/id/51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-06-27T18:55:48+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-06-27T18:56:37+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-06-27T18:57:34+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-06-27T18:57:35+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2014-06-27T18:57:36+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-06-27T18:58:23+08:00 ] ::1 /kucms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
